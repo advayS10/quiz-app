@@ -5,15 +5,13 @@ import Home from './pages/Home.jsx'
 import Quiz from './pages/Quiz.jsx'
 
 function App() {
-  const email = localStorage.getItem('email') 
-
   return (
     <div>
       <Navbar />
 
       <Routes>
-        <Route path='/' element={email ? <Home /> : <Navigate to='/register' />}/>
-        <Route path='/quiz' element={email ? <Quiz /> : <Navigate to='/register' />} />
+        <Route path='/' element={<Home />}/>
+        <Route path='/quiz' element={<Quiz />} />
       </Routes>
     </div>
   )
