@@ -7,7 +7,7 @@ const DisplayQuiz = ({quizName, time}) => {
   return (
     <div className='flex flex-col items-center justify-center'>
       <div className='w-full'>
-        <div className='flex flex-col items-center rounded-2xl border-4 p-6 space-y-6 border-sky-500 h-full'>
+        <div className='flex flex-col items-center rounded-2xl border-4 p-6 space-y-6 border-sky-800 h-full bg-sky-100'>
           <div className='px-8 text-center'>
             <h1 className='font-bold text-3xl'>{quizName ? quizName : "Quiz"}</h1>
             <p className='text-md'>Time: {time ? time: "30"} min</p>
