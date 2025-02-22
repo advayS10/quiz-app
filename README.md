@@ -1,8 +1,25 @@
-# React + Vite
+# 📚 Quiz App - ReactJS  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Description  
+This is a Quiz App built using ReactJS and Vite, providing users with an interactive quiz-taking experience. Users receive instant feedback on their answers, can submit responses, and view a detailed progress report at the end of the quiz. The app ensures a smooth and engaging user experience with real-time updates.  
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used  
+- **ReactJS** (with Vite for fast development)  
+- **Tailwind CSS** (for styling)  
+- **Lucide React** (for icons)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo  
+You can check out the live version of the app here:  
+[**Quiz App on Vercel**](https://quiz-app-lake-theta-18.vercel.app/)  
+
+## 🔧 How to Run Locally  
+
+### Prerequisites  
+Make sure you have **Node.js** and **npm** installed.  
+
+### Steps  
+
+1. **Clone the repository**  
+   ```sh
+   git clone <repository_url>
+   cd quiz-app
